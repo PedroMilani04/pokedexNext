@@ -34,7 +34,8 @@ export const getStaticProps = async (context) => {
 export default function Pokemon({ pokemon }) {
     return (
         <div className={styles.pokemon_container}>
-            <h1 className={styles.title}>{pokemon.name}</h1>
+           <div className={styles.teste}>
+           <h1 className={styles.title}>{pokemon.name}</h1>
             <Image src={`/images/${pokemon.id}.png`}
                 width={200}
                 height={200}
@@ -67,6 +68,7 @@ export default function Pokemon({ pokemon }) {
                     <p>{pokemon.weight / 10} kg</p>
                 </div>
             </div>
+           </div>
         </div>
     )
 }

@@ -1,3 +1,6 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -5,6 +8,9 @@
     padding: 1em 1.2em;
     background-color: #333;
     color: #fff;
+    position: fixed;
+    z-index: 110;
+    width: 100vw;
 }
 
 .logo {
@@ -15,6 +21,7 @@
 
 .logo h1 {
     margin-left: .5em;
+    
 }
 
 .link_items {
@@ -40,4 +47,13 @@
 
 .links:hover {
     border-color: #fff;
+}
+@media(max-width: 376px) {
+    .logo {
+        scale: .9;
+    }
+
+    .link_items {
+        scale: .9;
+    }
 }

@@ -46,7 +46,7 @@ export default function Home({ pokemons }) {
 
 
         <div className={styles.title_container}>
-          <h1 className={styles.title}>Poke<span>Next</span></h1>
+          <h1 className={styles.title}>Poké<span>Next</span></h1>
           <Image className={styles.bola} src={"/images/pokeball.png"} width={50} height={50} alt='pokeball' />
         </div>
         <div className={styles.poke_container}>

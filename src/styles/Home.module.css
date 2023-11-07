@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+
 .title_container {
     display: flex;
     justify-content: center;
@@ -14,7 +16,8 @@
     font-size: 3em;
     margin-right: .4em;
     margin-top: 1em;
-
+    font-family: 'Pokemon Solid', sans-serif;
+                                                
 }
 
 .bola {
@@ -23,6 +26,8 @@
 }
 .title span {
     color: #333;
+    font-family: 'Pokemon Solid', sans-serif;
+    margin-left: .2em;
 }
 
 .poke_container {
@@ -144,3 +149,20 @@
     background-color: #E33D33;
 }
 
+@media(max-width: 769px) {
+    .poke_container {
+        display: grid;
+        grid-template-columns: repeat(2, 4fr); /* Creates 4 equal-width columns */
+    }
+}
+
+@media(max-width: 426px) {
+    .right_button_one, .right_button_two {
+        display: none;
+    }
+    .title_container {
+        position: relative;
+        
+    }
+    
+}
