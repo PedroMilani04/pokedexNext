@@ -3,6 +3,9 @@
   padding-top: 10vh;
   padding-bottom: 6.6vh;
   background-color: #e33d33;
+  padding-bottom: auto;
+  min-height: 90vh;
+  
 }
 
 .teste {
@@ -15,6 +18,21 @@
   -webkit-backdrop-filter: blur(3.6px);
   margin-left: 35vw;
   margin-right: 35vw;
+  
+}
+
+.title_top {
+  margin-top: -2em;
+  padding: 1.2em;
+}
+
+.info {
+  background-color: white;
+  margin-top: -.8em;
+  padding: 1em;
+  color: #333;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
 }
 
 .title {
@@ -38,6 +56,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .type {

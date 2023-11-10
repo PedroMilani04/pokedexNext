@@ -15,6 +15,13 @@
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(3.6px);
   -webkit-backdrop-filter: blur(3.6px);
+  transition: ease-in-out .2s;
+}
+
+.card:hover {
+  scale: 1.03;
+  background: rgba(107, 184, 232, 0.788);
+
 }
 
 .card .id {
