@@ -1,5 +1,14 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# Next.js Pokedex
+
+This project is a simple **Pokedex** built with **Next.js**, utilizing the **PokeAPI** to fetch and display Pokémon data. It's designed to give a first look at **Next.js** features, such as server-side rendering, API integration, and dynamic routing.
+
+## Features
+- **Pokémon List**: Displays a list of all available Pokémon.
+- **Pokémon Details**: View detailed stats and information about each Pokémon.
+- **PokeAPI Integration**: Fetches data directly from the PokeAPI.
+
 ## Getting Started
 
 First, run the development server:
